@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="008E430F-2952-E11D-E00F-BCE21AB61B32" name="MODELO_PRODUCTO">
+<createdBy>roxi</createdBy>
+<createdTime>2026-02-09 15:09:38 UTC</createdTime>
+<ownerDesignName>proyecto1919.dm</ownerDesignName>
+<engineerTo>
+<item key="AFD13192-45A4-D822-4E9E-B7ADDD1DD7BE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_modelo" id="A9E4D64D-A6FE-2E10-B45D-58F656312E9F">
+<createdBy>roxi</createdBy>
+<createdTime>2026-02-09 15:09:55 UTC</createdTime>
+<ownerDesignName>proyecto1919.dm</ownerDesignName>
+<engineerTo>
+<item key="AFD13192-45A4-D822-4E9E-B7ADDD1DD7BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_modelo" id="2419C4D6-CD2B-3E84-DDED-5A4DEB3765A7">
+<createdBy>roxi</createdBy>
+<createdTime>2026-02-09 15:11:04 UTC</createdTime>
+<ownerDesignName>proyecto1919.dm</ownerDesignName>
+<engineerTo>
+<item key="AFD13192-45A4-D822-4E9E-B7ADDD1DD7BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_marca" id="D6486812-3B75-61C0-E3DC-0ED4060184B9">
+<createdBy>roxi</createdBy>
+<createdTime>2026-02-09 21:46:07 UTC</createdTime>
+<generatorID>30FE30C0-CFBC-1F68-3BD6-BC24FBAD30F3</generatorID>
+<ownerDesignName>proyecto1919.dm</ownerDesignName>
+<engineerTo>
+<item key="AFD13192-45A4-D822-4E9E-B7ADDD1DD7BE" value="true"/>
+</engineerTo>
+<referedAttribute>93176A6A-A4A8-975F-123B-3BF0E89EB6EA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="569C2365-675B-CDCE-2F34-92EEA5168186" name="MODELO_PRODUCTO PK">
+<createdBy>roxi</createdBy>
+<createdTime>2026-02-09 15:11:01 UTC</createdTime>
+<ownerDesignName>proyecto1919.dm</ownerDesignName>
+<engineerTo>
+<item key="AFD13192-45A4-D822-4E9E-B7ADDD1DD7BE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A9E4D64D-A6FE-2E10-B45D-58F656312E9F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
